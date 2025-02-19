@@ -16,13 +16,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
     background-color: #121214;
-    width: 90%;
+    width: 50%;
     max-width: 800px;
-    border: 2px solid #fff;
+    border: 1px solid #6969692f;
+    border-radius: 10px;
     padding: 16px;
     box-shadow: 0 0 2px 2px;
     display: flex;
@@ -54,7 +56,6 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
 }
 
 .next-question {
@@ -67,7 +68,10 @@ body {
 .quiz-title {
     color: red;
     margin-left: 10px;
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .button {
     background-color: blue;
     color: #fff;
@@ -77,7 +81,8 @@ body {
     border-radius: 6px;
     height: 48px;
     padding: 0 32px;
-    margin-left: 35px;
+    text-align: center;
+    margin: 15px 30px;
 }
 
 .button:not(:disabled):hover {
@@ -134,6 +139,7 @@ body {
     }
 
     .container {
-        width: 100%; /* Garantir que o container ocupe a largura total da tela */
+        width: 80%; /* Garantir que o container ocupe a largura total da tela */
+        text-align: center;
     }
 }
