@@ -24,14 +24,13 @@ body {
     width: 50%;
     max-width: 800px;
     border: 1px solid #6969692f;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 16px;
     box-shadow: 0 0 2px 2px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    flex-flow: column wrap;
 }
 
 .questions-container {
